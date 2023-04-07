@@ -3,35 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Age calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body>
+  <section class="formForDate">
 
-  Day
-  DD
+    <div class="day">
+      <h3>DAY</h3>
+      <input class="day" placeholder="DD">
+    </div>
+    
+    <div class="month">
+      <h3>MONTH</h3>
+      <input class="month" placeholder="MM">
+    </div>
 
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
+    <div class="year">
+      <h3>YEAR</h3>
+      <input class="year" placeholder="YYYY">
+    </div>
+    
+  </section> <!--finished formForDate section-->
   
+  <div>
+    <img class="icon" src="/assets/images/icon-arrow.svg" alt="icon">
+  </div>  
+
+  <section class="results">
+
+    <div class="userYears">
+      <h1 class="userYearsNumber">- -</h1>
+      <h1>years</h1>
+    </div>
+    
+    <div class="userMonths">
+      <h1 class="userMonthsNumber">- -</h1>
+      <h1>months</h1>
+    </div>
+    
+    <div class="userDays">
+      <h1 class="userDaysNumber">- -</h1>
+    </div>
+  </section> <!--finished results section-->
+ 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Sergei Golberg</a>.
   </div>
+
+  <script src="app.js">
+  </script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&family=Rubik:wght@300;400;500&family=Space+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /*color*/
+    --primary-purple: hsl(259, 100%, 65%);
+    --primary-light-red: hsl(0, 100%, 67%);
+    --n-white: hsl(0, 0%, 100%);
+    --n-offWhite: hsl(0,0%, 94%);
+    --n-Light-grey: hsl(0, 0%, 86%);
+    --n-smoked-grey: hsl(0,1%, 44%);
+    --n-offBlack: hsl(0, 0%, 8%);
+
+    /*typography*/
+    --font-size-inputs: 32px;
+    --family-poppins: 'Poppins', sans-serif;
+    --family-rubik: 'Rubik', sans-serif;
+    --family-space-mono: 'Space Mono', monospace;;
+    --font-weight-regular-i: 400i;
+    --font-weight-bold: 700;
+    --font-weight-extraBold-i: 800i;
+
+    --radius: 1rem;
+}
